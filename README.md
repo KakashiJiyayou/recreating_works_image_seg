@@ -47,24 +47,21 @@ image-segmentation-research/
 - Novel architectural improvements
 
 ## 🛠️ General Requirements
-
-Each paper implementation may have specific requirements. However, our research environment generally uses:
-
-- Python 3.8+
-- PyTorch 1.10+ with CUDA support
+Each paper implementation may have specific requirements. However, our research environment generally will have below libraries:
+- Python  3 (Not 2)
+- PyTorch ... Support
 - Common libraries: numpy, opencv-python, matplotlib, tensorboard
 
-Specific requirements for each implementation can be found in their respective directories.
+❗❗❗Specific requirements for each implementation can be found in their respective directories. And we will have seperate virtual environments to test each papers. 
 
 ## 📊 Datasets
-
-We primarily work with three major benchmark datasets:
+We primarily work with three major benchmark datasets: 
 
 1. **ADE20K**: Scene parsing dataset with 150 semantic categories
 2. **Cityscapes**: Urban street scene understanding
 3. **COCO 2017**: Common Objects in Context for instance and panoptic segmentation
 
-Please refer to individual paper directories for dataset preparation instructions.
+
 
 ## 🔬 Research Methodology
 
