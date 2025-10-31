@@ -14,18 +14,17 @@ This repository serves as a centralized platform for reproducing and benchmarkin
 - **Knowledge Sharing**: Foster collaboration and accelerate research in the image segmentation community
 
 ## 📂 Repository Structure
-image-segmentation-research/
-├── OneFormer/                # OneFormer: One Transformer to Rule Universal Image Segmentation
-│   ├── README.md            # Paper-specific documentation
-│   ├── requirements.txt     # Dependencies
-│   └── ...                  # Implementation files
-├── [Future Papers]/         # Additional paper implementations (coming soon)
-├── datasets/                # Common datasets directory
-│   ├── ADE20K/
-│   ├── Cityscapes/
-│   └── COCO/
-├── utils/                   # Shared utilities and evaluation metrics
-└── benchmarks/              # Comparative analysis and results
+## 📂 Repository Structure
+
+- image-segmentation-research/
+  - OneFormer/ (OneFormer: One Transformer to Rule Universal Image Segmentation)
+  - [Future Papers]/ (Additional paper implementations - coming soon)
+  - datasets/ (Common datasets directory)
+    - ADE20K/
+    - Cityscapes/
+    - COCO/
+  - utils/ (Shared utilities and evaluation metrics)
+  - benchmarks/ (Maybe, we are not focusing on it)
 
 ## 🚀 Current Implementations
 
